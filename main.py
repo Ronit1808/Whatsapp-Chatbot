@@ -32,7 +32,7 @@ def bot():
 	incoming_msg = incoming_msg.lower()
 
 	if 'your name' in incoming_msg:
-		output = 'I am Itachi Uchiha'
+		output = 'I am Rex'
 
 	elif 'date' in incoming_msg:
 		output = services.get_date()
